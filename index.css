@@ -1,0 +1,64 @@
+.Container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #ffe5ae, rgba(165, 119, 50, 0.626), #b5903f);
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 400px;
+    width: 400px; 
+    background-color: rgb(172, 128, 81); 
+    border-radius: 15px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+
+.inner-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.inner-box input{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.symbol{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.Answer-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Operation-box{
+    margin-bottom: 30px;
+}
